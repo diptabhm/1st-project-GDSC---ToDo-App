@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="20dp"
+    android:layout_marginBottom="20dp"
+    android:backgroundTint="#F9F9FA"
+    android:layout_marginEnd="15dp"
+    >
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="48dp"
+        android:elevation="30dp"
+
+        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/myLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="-25dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#C8DA1C7F"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginStart="42dp"
+            android:orientation="vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_delete_24"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#C8DA1C7F"
+                android:background="#C8DA1C7F"
+                android:layout_marginLeft="229dp"/>
+
+            <TextView
+                android:id="@+id/tasks"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="12dp"
+                android:text="Your task will go here"
+                android:textSize="23sp" />
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
