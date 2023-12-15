@@ -39,10 +39,5 @@ class MainActivity : AppCompatActivity()
                 editT.text.clear()
             }
         }
-
-
-
-
-
     }
 }
